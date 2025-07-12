@@ -1,737 +1,457 @@
 <!DOCTYPE html>
-<html lang="pt-AO">
+<html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maguijor - Contabilidade, Fiscalidade, Recursos Humanos & Consultoria</title>
-    <meta name="description" content="Maguijor Lda - Cuidamos da sua contabilidade como ninguém e melhor. Mais de 10 anos de experiência no mercado angolano.">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maguijor Lda.</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <nav>
-            <div class="logo">
-                <div class="logo-icon">M</div>
-                <div class="logo-text">
-                    <h1>MAGUIJOR</h1>
-                    <p>"Cuidamos da sua contabilidade como ninguém e melhor"</p>
-                </div>
+  <!-- Header/Menu principal -->
+  <header id="header">
+    <div class="container-header">
+      <div class="logo">
+        <img src="logo.png" alt="logo" class="img-logo">
+      </div>
+      <nav class="menu">
+        <a href="#" class="menu-link">Início</a>
+        <a href="#" class="menu-link">Quem Somos</a>
+        <a href="#" class="menu-link">Missão e Visão</a>
+        <a href="#" class="menu-link">Soluções</a>
+        <a href="#" class="menu-link">Fale Conosco</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="container-gradiente" style="padding-top:32px;padding-bottom:56px;">
+    <div class="hero-content">
+      <h1 class="titulo-fundo-gradiente">Transforme a Gestão da Sua Empresa com a Maguijor</h1>
+      <hr class="linha-titulo-fundo-gradiente">
+      <p style="max-width:500px;font-size:1.2rem;">Mais de 10 anos de experiência em contabilidade, auditoria, fiscalidade e consultoria empresarial em Angola. Foque total no seu crescimento e tranquilidade!</p>
+      <div class="hero-buttons">
+        <a href="#contato" class="btn laranja">Solicite uma Consultoria Gratuita</a>
+        <a href="#solucoes" class="btn branco">Descubra Nossas Soluções</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- História de Excelência e Confiança -->
+  <section id="historia" style="background:#fff;">
+    <div class="container">
+      <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;">
+        <h2 class="titulo-fundo-claro" style="color:#0E89D3;padding:8px 24px 8px 12px;border-radius:6px 0 0 6px;margin:0;">História de Excelência e Confiança</h2>
+      </div>
+      <div class="historia-flex" style="align-items:flex-start;">
+        <div class="historia-texto">
+          <p>Com mais de uma década de atuação no mercado angolano, a <b>Maguijor Lda.</b> consolidou-se como referência em serviços contábeis e consultoria empresarial. Apoiamos empresas de todos os portes a alcançar uma gestão financeira eficiente, segura e em conformidade com as normativas legais.</p>
+          <p>Nossa equipe é formada por profissionais altamente qualificados, em constante atualização e comprometidos com resultados. Utilizamos tecnologia de ponta para garantir precisão, agilidade e segurança em todos os processos.</p>
+          <div style="display:flex;gap:18px;margin:32px 0 0 0;">
+            <div style="background:linear-gradient(135deg,#1B4C79 80%,#0E89D3 100%);color:#fff;border-radius:12px;padding:18px 24px;min-width:120px;text-align:center;font-weight:700;font-size:1.2rem;box-shadow:0 2px 8px rgba(27,76,121,0.10);">
+              10+<br><span style="font-size:0.9rem;font-weight:400;">Anos de Experiência</span>
             </div>
-            <ul class="nav-links">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#about">Quem Somos</a></li>
-                <li><a href="#mission">Missão & Visão</a></li>
-                <li><a href="#services">Soluções</a></li>
-                <li><a href="#contact">Fale Connosco</a></li>
+            <div style="background:linear-gradient(135deg,#1B4C79 80%,#0E89D3 100%);color:#fff;border-radius:12px;padding:18px 24px;min-width:120px;text-align:center;font-weight:700;font-size:1.2rem;box-shadow:0 2px 8px rgba(27,76,121,0.10);">
+              500+<br><span style="font-size:0.9rem;font-weight:400;">Clientes Satisfeitos</span>
+            </div>
+            <div style="background:linear-gradient(135deg,#1B4C79 80%,#0E89D3 100%);color:#fff;border-radius:12px;padding:18px 24px;min-width:120px;text-align:center;font-weight:700;font-size:1.2rem;box-shadow:0 2px 8px rgba(27,76,121,0.10);">
+              100+<br><span style="font-size:0.9rem;font-weight:400;">Compromisso</span>
+            </div>
+            <div style="background:linear-gradient(135deg,#1B4C79 80%,#0E89D3 100%);color:#fff;border-radius:12px;padding:18px 24px;min-width:120px;text-align:center;font-weight:700;font-size:1.2rem;box-shadow:0 2px 8px rgba(27,76,121,0.10);">
+              24+<br><span style="font-size:0.9rem;font-weight:400;">Suporte Disponível</span>
+            </div>
+          </div>
+        </div>
+        <div class="historia-img-cert">
+          <img src="1.jpg" alt="Equipe Maguijor" class="img-equipe">
+          <div class="card card-cert" style="margin-top:18px;">
+            <b>Certificações e Registros</b>
+            <ul style="margin:12px 0 0 0;padding-left:18px;">
+              <li>Registro na Ordem dos Contabilistas</li>
+              <li>Certificação ANIP</li>
+              <li>Seguro de Responsabilidade Civil</li>
             </ul>
-            <div class="mobile-menu" onclick="toggleMobileMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Transforme a Gestão da Sua Empresa com a Maguijor</h1>
-            <p>Mais de 10 anos de experiência em contabilidade, auditoria, fiscalidade e consultoria empresarial em Angola. Foco total no seu crescimento e tranquilidade!</p>
-            <div class="cta-buttons">
-                <a href="#contact" class="btn btn-primary">
-                    <i class="fas fa-phone"></i>
-                    Solicite uma Consultoria Gratuita
-                </a>
-                <a href="#services" class="btn btn-secondary">
-                    <i class="fas fa-arrow-right"></i>
-                    Descubra Nossas Soluções
-                </a>
-            </div>
+          </div>
         </div>
-    </section>
-
-    <!-- Missão, Visão e Valores -->
-    <section class="section" id="mission">
-        <div class="container">
-            <div class="section-title">
-                <h2>Missão, Visão & Valores</h2>
-                <p>Compromisso com a excelência, ética e o sucesso dos nossos clientes</p>
-            </div>
-            <div class="mission-grid">
-                <div class="mission-card">
-                    <h3>Missão</h3>
-                    <p>Prestar serviços contábeis, fiscais e de consultoria de excelência, contribuindo para o desenvolvimento sustentável das empresas angolanas através de soluções personalizadas e atendimento diferenciado, sempre pautado pela ética, transparência e qualidade técnica.</p>
-                </div>
-                <div class="mission-card">
-                    <h3>Visão</h3>
-                    <p>Ser reconhecida como a empresa de referência em serviços contábeis e consultoria empresarial em Angola, destacando-se pela inovação, confiabilidade e pelo compromisso com o sucesso dos nossos clientes.</p>
-                </div>
-                <div class="mission-card">
-                    <h3>Valores</h3>
-                    <ul>
-                        <li><b>Ética Profissional:</b> Integridade e transparência em todas as relações</li>
-                        <li><b>Excelência:</b> Melhoria contínua e qualidade dos serviços</li>
-                        <li><b>Confiabilidade:</b> Relacionamentos duradouros e confiança mútua</li>
-                        <li><b>Inovação:</b> Adaptação às mudanças e necessidades dos clientes</li>
-                        <li><b>Compromisso:</b> Dedicação total ao sucesso dos clientes</li>
-                        <li><b>Responsabilidade:</b> Cumprimento rigoroso de prazos e compromissos</li>
-                    </ul>
-                </div>
-            </div>
+      </div>
+      <div style="display:flex;gap:18px;margin:40px 0 0 0;">
+        <div class="card" style="flex:1;display:flex;align-items:center;gap:12px;min-width:180px;">
+          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg></span>
+          <div>
+            <b>Experiência Consolidada</b>
+            <div style="font-size:0.97rem;font-weight:400;">Mais de 10 anos de conhecimento profundo da legislação angolana.</div>
+          </div>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about section" id="about">
-        <div class="container">
-            <div class="section-title">
-                <h2>Por Que Escolher a Maguijor?</h2>
-                <p>Mais do que contabilidade: experiência, inovação e compromisso com o seu sucesso!</p>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>História de Excelência e Confiança</h3>
-                    <p>Com mais de uma década de atuação no mercado angolano, a <b>Maguijor Lda.</b> consolidou-se como referência em serviços contábeis e consultoria empresarial. Apoiamos empresas de todos os portes e setores a alcançar uma gestão financeira eficiente, segura e em conformidade com as normativas legais.</p>
-                    <p>Nossa equipe é formada por profissionais altamente qualificados, em constante atualização e comprometidos com resultados. Utilizamos tecnologia de ponta para garantir precisão, agilidade e segurança em todos os processos.</p>
-                </div>
-                <div class="stats">
-                    <div class="stat-item">
-                        <h4>10+</h4>
-                        <p>Anos de Experiência</p>
-                    </div>
-                    <div class="stat-item">
-                        <h4>500+</h4>
-                        <p>Clientes Satisfeitos</p>
-                    </div>
-                    <div class="stat-item">
-                        <h4>100%</h4>
-                        <p>Compromisso</p>
-                    </div>
-                    <div class="stat-item">
-                        <h4>24/7</h4>
-                        <p>Suporte Disponível</p>
-                    </div>
-                </div>
-            </div>
-            <div class="diferenciais">
-                <div class="diferencial-card">
-                    <i class="fas fa-award"></i>
-                    <div>
-                        <b>Experiência Consolidada</b>
-                        <p>Mais de 10 anos de conhecimento profundo da legislação angolana.</p>
-                    </div>
-                </div>
-                <div class="diferencial-card">
-                    <i class="fas fa-user-tie"></i>
-                    <div>
-                        <b>Equipe Especializada</b>
-                        <p>Profissionais qualificados e em constante atualização.</p>
-                    </div>
-                </div>
-                <div class="diferencial-card">
-                    <i class="fas fa-handshake"></i>
-                    <div>
-                        <b>Atendimento Personalizado</b>
-                        <p>Soluções adaptadas às necessidades de cada cliente.</p>
-                    </div>
-                </div>
-                <div class="diferencial-card">
-                    <i class="fas fa-laptop-code"></i>
-                    <div>
-                        <b>Tecnologia Avançada</b>
-                        <p>Sistemas modernos para maior eficiência e precisão.</p>
-                    </div>
-                </div>
-                <div class="diferencial-card">
-                    <i class="fas fa-users"></i>
-                    <div>
-                        <b>Relacionamento Duradouro</b>
-                        <p>Parceria estratégica para o crescimento sustentável.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="card" style="flex:1;display:flex;align-items:center;gap:12px;min-width:180px;">
+          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></span>
+          <div>
+            <b>Equipe Especializada</b>
+            <div style="font-size:0.97rem;font-weight:400;">Profissionais qualificados e em constante atualização.</div>
+          </div>
         </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services section" id="services">
-        <div class="container">
-            <div class="section-title">
-                <h2>Soluções Completas para Sua Empresa</h2>
-                <p>Conheça nossos serviços especializados para impulsionar o crescimento e a segurança do seu negócio</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-calculator"></i>
-                    </div>
-                    <h3>Contabilidade Estratégica</h3>
-                    <p>Gestão contábil completa para garantir conformidade, organização e crescimento sustentável.</p>
-                    <ul class="service-list">
-                        <li>Escrituração Contábil Completa</li>
-                        <li>Elaboração de Demonstrações Financeiras</li>
-                        <li>Balancetes e Relatórios Mensais</li>
-                        <li>Conciliações Bancárias</li>
-                        <li>Controle Patrimonial</li>
-                        <li>Análise de Custos e Resultados</li>
-                    </ul>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <h3>Auditoria Profunda</h3>
-                    <p>Transparência e segurança para sua empresa com auditorias especializadas.</p>
-                    <ul class="service-list">
-                        <li>Auditoria Externa e Interna</li>
-                        <li>Auditoria de Conformidade</li>
-                        <li>Auditoria Fiscal</li>
-                        <li>Revisão de Demonstrações Financeiras</li>
-                        <li>Auditoria de Sistemas e Processos</li>
-                        <li>Relatórios de Auditoria Especializados</li>
-                    </ul>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-file-invoice-dollar"></i>
-                    </div>
-                    <h3>Fiscalidade Inteligente</h3>
-                    <p>Consultoria fiscal para otimizar sua carga tributária e garantir compliance total.</p>
-                    <ul class="service-list">
-                        <li>Planejamento Tributário</li>
-                        <li>Consultoria em Impostos</li>
-                        <li>Declarações Fiscais</li>
-                        <li>Otimização da Carga Tributária</li>
-                        <li>Compliance Fiscal</li>
-                        <li>Representação junto aos Órgãos Fiscais</li>
-                    </ul>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>Gestão de Recursos Humanos</h3>
-                    <p>RH estratégico para sua empresa focar no que realmente importa.</p>
-                    <ul class="service-list">
-                        <li>Processamento de Salários</li>
-                        <li>Gestão de Benefícios</li>
-                        <li>Compliance Trabalhista</li>
-                        <li>Consultoria em Legislação Laboral</li>
-                        <li>Recrutamento e Seleção</li>
-                        <li>Outsourcing de RH</li>
-                    </ul>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h3>Formação & Consultoria Empresarial</h3>
-                    <p>Capacitação e assessoria estratégica para o sucesso do seu negócio.</p>
-                    <ul class="service-list">
-                        <li>Consultoria Empresarial</li>
-                        <li>Formação em Gestão Financeira</li>
-                        <li>Workshops e Seminários</li>
-                        <li>Assessoria em Gestão Estratégica</li>
-                        <li>Consultoria em Investimentos</li>
-                        <li>Planos de Negócio</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="card" style="flex:1;display:flex;align-items:center;gap:12px;min-width:180px;">
+          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-7-3h2v2h-2v-2zm0-8h2v6h-2V8z"/></svg></span>
+          <div>
+            <b>Atendimento Personalizado</b>
+            <div style="font-size:0.97rem;font-weight:400;">Soluções adaptadas às necessidades de cada cliente.</div>
+          </div>
         </div>
-    </section>
-
-    <!-- Benefícios Section -->
-    <section class="benefits section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Benefícios de Contratar a Maguijor</h2>
-                <p>Descubra como podemos transformar a gestão da sua empresa e impulsionar o seu crescimento</p>
-            </div>
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-coins"></i>
-                    </div>
-                    <h3>Redução de Custos</h3>
-                    <ul>
-                        <li>Possíveis reduções na carga tributária através de planejamento fiscal adequado</li>
-                        <li>Otimização de processos financeiros</li>
-                        <li>Prevenção de multas e penalidades</li>
-                    </ul>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Organização Empresarial</h3>
-                    <ul>
-                        <li>Conhecimento da real situação financeira da empresa</li>
-                        <li>Facilita a obtenção de empréstimos e financiamentos</li>
-                        <li>Melhoria na tomada de decisões estratégicas</li>
-                    </ul>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Tranquilidade e Foco</h3>
-                    <ul>
-                        <li>Permite que o empresário se concentre no core business</li>
-                        <li>Reduz riscos de não conformidade com a legislação</li>
-                        <li>Suporte técnico especializado sempre disponível</li>
-                    </ul>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h3>Qualidade e Confiabilidade</h3>
-                    <ul>
-                        <li>Mais de 10 anos de experiência no mercado angolano</li>
-                        <li>Equipe técnica qualificada e atualizada</li>
-                        <li>Atendimento personalizado e responsivo</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="card" style="flex:1;display:flex;align-items:center;gap:12px;min-width:180px;">
+          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M12 7V3L1 9l11 6 9-4.91V17h2V9L12 3v4z"/></svg></span>
+          <div>
+            <b>Tecnologia Avançada</b>
+            <div style="font-size:0.97rem;font-weight:400;">Sistemas modernos para maior eficiência e precisão.</div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Setores e Tipos de Empresas -->
-    <section class="sectors section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Setores e Tipos de Empresas Atendidas</h2>
-                <p>Atendemos empresas de todos os portes e setores, oferecendo soluções personalizadas para cada necessidade</p>
-            </div>
-            <div class="sectors-grid">
-                <div class="sector-card">
-                    <h3>
-                        <i class="fas fa-industry"></i>
-                        Setores Atendidos
-                    </h3>
-                    <div class="sector-content">
-                        <div>
-                            <h4>Comércio e Distribuição</h4>
-                            <ul>
-                                <li>Empresas de importação e exportação</li>
-                                <li>Lojas e centros comerciais</li>
-                                <li>Distribuidores e grossistas</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>Indústria e Produção</h4>
-                            <ul>
-                                <li>Indústrias transformadoras</li>
-                                <li>Empresas de manufatura</li>
-                                <li>Setor alimentício e bebidas</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>Serviços</h4>
-                            <ul>
-                                <li>Empresas de consultoria</li>
-                                <li>Setor de tecnologia</li>
-                                <li>Prestadores de serviços diversos</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>Construção Civil</h4>
-                            <ul>
-                                <li>Construtoras e incorporadoras</li>
-                                <li>Empresas de engenharia</li>
-                                <li>Setor imobiliário</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>Agricultura e Pecuária</h4>
-                            <ul>
-                                <li>Empresas do agronegócio</li>
-                                <li>Cooperativas agrícolas</li>
-                                <li>Setor de agropecuária</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4>Turismo e Hotelaria</h4>
-                            <ul>
-                                <li>Hotéis e pousadas</li>
-                                <li>Empresas de turismo</li>
-                                <li>Setor de entretenimento</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="sector-card">
-                    <h3>
-                        <i class="fas fa-building"></i>
-                        Tipos de Empresas
-                    </h3>
-                    <div class="company-types">
-                        <div>
-                            <h4>Por Porte</h4>
-                            <div class="company-grid">
-                                <div class="company-type">
-                                    <h5>Microempresas</h5>
-                                    <p>Soluções simplificadas e acessíveis</p>
-                                </div>
-                                <div class="company-type">
-                                    <h5>Pequenas Empresas</h5>
-                                    <p>Serviços personalizados para crescimento</p>
-                                </div>
-                                <div class="company-type">
-                                    <h5>Médias Empresas</h5>
-                                    <p>Consultoria estratégica e gestão completa</p>
-                                </div>
-                                <div class="company-type">
-                                    <h5>Grandes Corporações</h5>
-                                    <p>Soluções complexas e especializadas</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <h4>Por Natureza Jurídica</h4>
-                            <ul>
-                                <li>Sociedades por Quotas</li>
-                                <li>Sociedades Anônimas</li>
-                                <li>Empresas Individuais</li>
-                                <li>Associações e ONGs</li>
-                                <li>Cooperativas</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Soluções Completas para Sua Empresa -->
+  <section id="solucoes" style="background:#F8F7FB;">
+    <div class="container">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+        <h2 class="titulo-fundo-claro" style="color:#0E89D3;">Soluções <span style="color:#0E89D3;">Completas</span> para <span style="color:#0E89D3;">Sua Empresa</span></h2>
+      </div>
+      <hr class="linha-titulo-fundo-claro">
+      <p class="subtitulo" style="margin-bottom:24px;">Conheça nossos serviços especializados para impulsionar o crescimento e a segurança do seu negócio</p>
+      <div style="display:flex;gap:24px;justify-content:center;flex-wrap:wrap;">
+        <div class="card" style="flex:1 1 220px;max-width:270px;border:2px solid #0E89D3;">
+          <div class="icone-fundo" style="margin-bottom:8px;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><rect width="24" height="24" rx="8" fill="#FF6732"/><path fill="#fff" d="M7 17h10v-2H7v2zm0-4h10v-2H7v2zm0-6v2h10V7H7z"/></svg></div>
+          <h3 style="color:#1B4C79;">Contabilidade Estratégica</h3>
+          <div style="color:#333;font-size:0.97rem;font-size:0.97rem;margin-bottom:8px;">Gestão contábil completa para garantir conformidade e crescimento sustentável.</div>
+          <ul style="color:#333;font-size:0.97rem;">
+            <li>Escrituração Contábil Completa</li>
+            <li>Demonstrativos Financeiros</li>
+            <li>Balancetes e Relatórios Mensais</li>
+            <li>Conciliações Bancárias</li>
+            <li>Controle Patrimonial</li>
+          </ul>
+          <a href="#contato" class="solicite-link">Solicite Orçamento</a>
         </div>
-    </section>
-
-    <!-- Empresas que Confiam em Nós -->
-    <section class="clients section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Empresas que Confiam em Nós</h2>
-                <p>Atendemos empresas de diversos setores e portes, construindo relacionamentos duradouros baseados na confiança e resultados</p>
-            </div>
-            <div class="clients-grid">
-                <div class="client-card">
-                    <h3>
-                        <i class="fas fa-shopping-cart"></i>
-                        Setor Comercial
-                    </h3>
-                    <ul>
-                        <li>Empresas de importação e exportação</li>
-                        <li>Distribuidores e grossistas</li>
-                        <li>Lojas e centros comerciais</li>
-                        <li>Concessionárias automóveis</li>
-                        <li>Empresas de material de construção</li>
-                        <li>Supermercados e hipermercados</li>
-                    </ul>
-                </div>
-                <div class="client-card">
-                    <h3>
-                        <i class="fas fa-industry"></i>
-                        Setor Industrial
-                    </h3>
-                    <ul>
-                        <li>Indústrias alimentares e de bebidas</li>
-                        <li>Empresas de manufatura</li>
-                        <li>Indústrias têxteis</li>
-                        <li>Empresas de transformação</li>
-                        <li>Fábricas de materiais de construção</li>
-                        <li>Indústrias químicas e farmacêuticas</li>
-                    </ul>
-                </div>
-                <div class="client-card">
-                    <h3>
-                        <i class="fas fa-cogs"></i>
-                        Setor de Serviços
-                    </h3>
-                    <ul>
-                        <li>Empresas de consultoria</li>
-                        <li>Prestadores de serviços técnicos</li>
-                        <li>Empresas de limpeza e segurança</li>
-                        <li>Clínicas e laboratórios</li>
-                        <li>Empresas de telecomunicações</li>
-                        <li>Serviços financeiros</li>
-                    </ul>
-                </div>
-                <div class="client-card">
-                    <h3>
-                        <i class="fas fa-building"></i>
-                        Construção e Imobiliário
-                    </h3>
-                    <ul>
-                        <li>Construtoras e empreiteiros</li>
-                        <li>Empresas de engenharia civil</li>
-                        <li>Promotores imobiliários</li>
-                        <li>Empresas de arquitetura</li>
-                        <li>Fornecedores de materiais de construção</li>
-                        <li>Empresas de instalações técnicas</li>
-                    </ul>
-                </div>
-                <div class="client-card">
-                    <h3>
-                        <i class="fas fa-seedling"></i>
-                        Agricultura e Pecuária
-                    </h3>
-                    <ul>
-                        <li>Empresas do agronegócio</li>
-                        <li>Fazendas e quintas</li>
-                        <li>Cooperativas agrícolas</li>
-                        <li>Empresas de processamento alimentar</li>
-                        <li>Distribuidores de produtos agrícolas</li>
-                        <li>Empresas de equipamentos agrícolas</li>
-                    </ul>
-                </div>
-                <div class="client-card">
-                    <h3>
-                        <i class="fas fa-hotel"></i>
-                        Turismo e Hotelaria
-                    </h3>
-                    <ul>
-                        <li>Hotéis e pousadas</li>
-                        <li>Restaurantes e bares</li>
-                        <li>Empresas de turismo</li>
-                        <li>Agências de viagem</li>
-                        <li>Empresas de entretenimento</li>
-                        <li>Operadores turísticos</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="card" style="flex:1 1 220px;max-width:270px;border:2px solid #0E89D3;">
+          <div class="icone-fundo" style="margin-bottom:8px;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6z"/></svg></div>
+          <h3 style="color:#1B4C79;">Auditoria Profunda</h3>
+          <div style="color:#333;font-size:0.97rem; font-size:0.97rem;margin-bottom:8px;">Transparência e segurança para sua empresa com auditorias especializadas.</div>
+          <ul style="color:#333;font-size:0.97rem;">
+            <li>Auditoria Externa e Interna</li>
+            <li>Auditoria de Conformidade</li>
+            <li>Revisão de Demonstrações Financeiras</li>
+            <li>Relatórios de Auditoria</li>
+          </ul>
+          <a href="#contato" class="solicite-link">Solicite Orçamento</a>
         </div>
-    </section>
-
-    <!-- Compromissos com o Cliente -->
-    <section class="commitments section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Nossos Compromissos com Você</h2>
-                <p>Garantimos qualidade, pontualidade e confidencialidade em todos os nossos serviços</p>
-            </div>
-            <div class="commitments-grid">
-                <div class="commitment-card">
-                    <div class="commitment-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3>Qualidade Garantida</h3>
-                    <ul>
-                        <li>Serviços prestados conforme normas técnicas</li>
-                        <li>Equipe qualificada e certificada</li>
-                        <li>Controle de qualidade rigoroso</li>
-                    </ul>
-                </div>
-                <div class="commitment-card">
-                    <div class="commitment-icon">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <h3>Prazos e Pontualidade</h3>
-                    <ul>
-                        <li>Cumprimento rigoroso de prazos</li>
-                        <li>Entrega pontual de relatórios</li>
-                        <li>Disponibilidade para urgências</li>
-                    </ul>
-                </div>
-                <div class="commitment-card">
-                    <div class="commitment-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Confidencialidade</h3>
-                    <ul>
-                        <li>Sigilo profissional absoluto</li>
-                        <li>Proteção de dados empresariais</li>
-                        <li>Confidencialidade de informações</li>
-                    </ul>
-                </div>
-                <div class="commitment-card">
-                    <div class="commitment-icon">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <h3>Atendimento Personalizado</h3>
-                    <ul>
-                        <li>Relacionamento próximo com o cliente</li>
-                        <li>Consultoria adaptada às necessidades</li>
-                        <li>Suporte técnico especializado</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="card" style="flex:1 1 220px;max-width:270px;border:2px solid #0E89D3;">
+          <div class="icone-fundo" style="margin-bottom:8px;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><rect width="24" height="24" rx="8" fill="#FF6732"/><path fill="#fff" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-7-3h2v2h-2v-2zm0-8h2v6h-2V8z"/></svg></div>
+          <h3 style="color:#1B4C79;">Fiscalidade Inteligente</h3>
+          <div style="color:#333;font-size:0.97rem; font-size:0.97rem;margin-bottom:8px;">Consultoria fiscal para otimizar sua carga tributária e garantir compliance.</div>
+          <ul style="color:#333;font-size:0.97rem;">
+            <li>Planejamento Tributário</li>
+            <li>Gestão de Impostos</li>
+            <li>Declarações Fiscais</li>
+            <li>Otimização da Carga Tributária</li>
+            <li>Compliance Fiscal</li>
+          </ul>
+          <a href="#contato" class="solicite-link">Solicite Orçamento</a>
         </div>
-    </section>
-
-    <!-- Processo de Trabalho -->
-    <section class="process section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Como Funciona Nosso Processo</h2>
-                <p>Metodologia estruturada para garantir resultados e satisfação total</p>
-            </div>
-            <div class="process-grid">
-                <div class="process-card">
-                    <div class="process-number">1</div>
-                    <h3>Diagnóstico Inicial</h3>
-                    <ul>
-                        <li>Análise da situação atual da empresa</li>
-                        <li>Identificação de necessidades específicas</li>
-                        <li>Proposta de soluções personalizadas</li>
-                    </ul>
-                </div>
-                <div class="process-card">
-                    <div class="process-number">2</div>
-                    <h3>Implementação</h3>
-                    <ul>
-                        <li>Organização da documentação</li>
-                        <li>Estruturação de processos</li>
-                        <li>Treinamento da equipe cliente</li>
-                    </ul>
-                </div>
-                <div class="process-card">
-                    <div class="process-number">3</div>
-                    <h3>Acompanhamento</h3>
-                    <ul>
-                        <li>Monitoramento contínuo</li>
-                        <li>Relatórios regulares</li>
-                        <li>Ajustes e melhorias</li>
-                    </ul>
-                </div>
-                <div class="process-card">
-                    <div class="process-number">4</div>
-                    <h3>Consultoria Estratégica</h3>
-                    <ul>
-                        <li>Análises e recomendações</li>
-                        <li>Suporte na tomada de decisões</li>
-                        <li>Planejamento de crescimento</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="card" style="flex:1 1 220px;max-width:270px;border:2px solid #0E89D3;">
+          <div class="icone-fundo" style="margin-bottom:8px;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></div>
+          <h3 style="color:#1B4C79;">Gestão de Recursos Humanos</h3>
+          <div style="color:#333;font-size:0.97rem; font-size:0.97rem;margin-bottom:8px;">RH estratégico para sua empresa focar no que realmente importa.</div>
+          <ul style="color:#333;font-size:0.97rem;">
+            <li>Processamento de Salários</li>
+            <li>Gestão de Benefícios</li>
+            <li>Compliance Trabalhista</li>
+            <li>Consultoria em Legislação Laboral</li>
+            <li>Outsourcing de RH</li>
+          </ul>
+          <a href="#contato" class="solicite-link">Solicite Orçamento</a>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section class="contact section" id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>Entre em Contacto</h2>
-                <p>Estamos prontos para ajudar sua empresa a crescer</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Fale Connosco</h3>
-                    <p>Não espere as questões fiscais para nos contactar. Deixe-nos ajudar a sua empresa a ter sucesso!</p>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Telefone</h4>
-                            <p>+244 923 954 828</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>geral@maguijor.co.ao</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Localização</h4>
-                            <p>Luanda, Angola</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <h4>Horário de Funcionamento</h4>
-                            <p>Segunda a Sexta: 8h às 17h</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <h3>Solicite uma Consultoria Gratuita</h3>
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Nome Completo</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Telefone</label>
-                            <input type="tel" id="phone" name="phone" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="company">Empresa</label>
-                            <input type="text" id="company" name="company">
-                        </div>
-                        <div class="form-group">
-                            <label for="service">Serviço de Interesse</label>
-                            <select id="service" name="service" required>
-                                <option value="">Selecione um serviço</option>
-                                <option value="contabilidade">Contabilidade</option>
-                                <option value="auditoria">Auditoria</option>
-                                <option value="fiscalidade">Fiscalidade</option>
-                                <option value="rh">Recursos Humanos</option>
-                                <option value="consultoria">Consultoria</option>
-                                <option value="outro">Outro</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Mensagem</label>
-                            <textarea id="message" name="message" placeholder="Descreva como podemos ajudar sua empresa..."></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane"></i>
-                            Enviar Mensagem
-                        </button>
-                    </form>
-                </div>
-            </div>
+  <!-- Como Funciona Nosso Processo -->
+  <section id="processo" class="container-gradiente" style="margin-top:0;">
+    <div class="container">
+      <h2 class="titulo-fundo-gradiente" style="color:#fff;">Como Funciona Nosso Processo</h2>
+      <hr class="linha-titulo-fundo-gradiente">
+      <p class="subtitulo" style="color:#e0e6ef;margin-bottom:24px;">Metodologia estruturada para garantir resultados e satisfação total</p>
+      <div style="display:flex;gap:24px;justify-content:center;flex-wrap:wrap;">
+        <div style="background:rgba(255,255,255,0.10);border-radius:12px;padding:18px 20px;min-width:180px;max-width:220px;display:flex;flex-direction:column;align-items:center;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+          <div style="background:#FF6732;color:#fff;font-weight:700;font-size:1.3rem;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:8px;">1</div>
+          <b style="color:#fff;">Diagnóstico Inicial</b>
+          <ul style="color:#e0e6ef;font-size:0.97rem;margin:8px 0 0 0;padding-left:18px;text-align:left;">
+            <li>Análise de situação atual da empresa</li>
+            <li>Identificação de necessidades específicas</li>
+            <li>Proposta de soluções personalizadas</li>
+          </ul>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Maguijor Lda.</h4>
-                    <p>"Cuidamos da sua contabilidade como ninguém e melhor". Mais de 10 anos de experiência no mercado angolano, oferecendo serviços de excelência em contabilidade, auditoria, fiscalidade e consultoria empresarial.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Serviços</h4>
-                    <ul>
-                        <li><a href="#services">Contabilidade Estratégica</a></li>
-                        <li><a href="#services">Auditoria Profunda</a></li>
-                        <li><a href="#services">Fiscalidade Inteligente</a></li>
-                        <li><a href="#services">Gestão de Recursos Humanos</a></li>
-                        <li><a href="#services">Formação & Consultoria</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contacto</h4>
-                    <ul>
-                        <li><i class="fas fa-phone"></i> +244 923 954 828</li>
-                        <li><i class="fas fa-envelope"></i> geral@maguijor.co.ao</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Luanda, Angola</li>
-                        <li><i class="fas fa-clock"></i> Segunda a Sexta: 8h às 17h</li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Siga-nos</h4>
-                    <ul>
-                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
-                        <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Maguijor Lda. Todos os direitos reservados. | Cumprimento das normas contábeis angolanas | Conformidade com a legislação fiscal</p>
-            </div>
+        <div style="background:rgba(255,255,255,0.10);border-radius:12px;padding:18px 20px;min-width:180px;max-width:220px;display:flex;flex-direction:column;align-items:center;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+          <div style="background:#FF6732;color:#fff;font-weight:700;font-size:1.3rem;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:8px;">2</div>
+          <b style="color:#fff;">Implementação</b>
+          <ul style="color:#e0e6ef;font-size:0.97rem;margin:8px 0 0 0;padding-left:18px;text-align:left;">
+            <li>Organização da documentação</li>
+            <li>Estruturação de processos</li>
+            <li>Treinamento da equipe cliente</li>
+          </ul>
         </div>
-    </footer>
+        <div style="background:rgba(255,255,255,0.10);border-radius:12px;padding:18px 20px;min-width:180px;max-width:220px;display:flex;flex-direction:column;align-items:center;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+          <div style="background:#FF6732;color:#fff;font-weight:700;font-size:1.3rem;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:8px;">3</div>
+          <b style="color:#fff;">Acompanhamento</b>
+          <ul style="color:#e0e6ef;font-size:0.97rem;margin:8px 0 0 0;padding-left:18px;text-align:left;">
+            <li>Monitoramento contínuo</li>
+            <li>Relatórios regulares</li>
+            <li>Ajustes e melhorias</li>
+          </ul>
+        </div>
+        <div style="background:rgba(255,255,255,0.10);border-radius:12px;padding:18px 20px;min-width:180px;max-width:220px;display:flex;flex-direction:column;align-items:center;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+          <div style="background:#FF6732;color:#fff;font-weight:700;font-size:1.3rem;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:8px;">4</div>
+          <b style="color:#fff;">Consultoria Estratégica</b>
+          <ul style="color:#e0e6ef;font-size:0.97rem;margin:8px 0 0 0;padding-left:18px;text-align:left;">
+            <li>Análises e recomendações</li>
+            <li>Suporte na tomada de decisões</li>
+            <li>Planejamento de crescimento</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- Setores e Tipos de Empresas Atendidas -->
+  <section id="setores" style="background:#F8F7FB;">
+    <div class="container">
+      <h2 class="titulo-fundo-claro" style="color:#0E89D3;text-align:center;margin-bottom:0;">Setores e Tipos de <span style="color:#0E89D3;">Empresas Atendidas</span></h2>
+      <hr class="linha-titulo-fundo-claro" style="margin:8px auto 18px auto;">
+      <p class="subtitulo" style="margin-bottom:32px;">Atendemos empresas de todos os portes e setores, oferecendo soluções personalizadas para cada necessidade</p>
+      <div style="display:flex;gap:32px;justify-content:center;flex-wrap:wrap;">
+        <!-- Card Setores Atendidos -->
+        <div class="card" style="flex:1 1 420px;max-width:520px;padding:32px 32px 32px 32px;box-shadow:0 4px 24px rgba(27,76,121,0.07);">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:18px;">
+            <span class="icone-fundo" style="background:#0E89D3;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 8h14v-2H7v2zm0-4h14v-2H7v2zm0-6v2h14V7H7z"/></svg></span>
+            <span style="color:#0E89D3;font-weight:700;font-size:1.2rem;">Setores Atendidos</span>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 32px;">
+            <div>
+              <div style="color:#FF6732;font-weight:700;margin-bottom:2px;">Comércio e Distribuição</div>
+              <ul style="color:#333;font-size:0.97rem;margin:0 0 12px 0;padding-left:18px;">
+                <li>Empresas de importação e exportação</li>
+                <li>Lojas e centros comerciais</li>
+                <li>Distribuidores e grossistas</li>
+              </ul>
+              <div style="color:#FF6732;font-weight:700;margin-bottom:2px;">Serviços</div>
+              <ul style="color:#333;font-size:0.97rem;margin:0 0 12px 0;padding-left:18px;">
+                <li>Empresas de consultoria</li>
+                <li>Setor de tecnologia</li>
+                <li>Prestadores de serviços diversos</li>
+              </ul>
+              <div style="color:#FF6732;font-weight:700;margin-bottom:2px;">Agricultura e Pecuária</div>
+              <ul style="color:#333;font-size:0.97rem;margin:0 0 12px 0;padding-left:18px;">
+                <li>Empresas do agronegócio</li>
+                <li>Cooperativas agrícolas</li>
+                <li>Setor de agropecuária</li>
+              </ul>
+            </div>
+            <div>
+              <div style="color:#FF6732;font-weight:700;margin-bottom:2px;">Indústria e Produção</div>
+              <ul style="color:#333;font-size:0.97rem;margin:0 0 12px 0;padding-left:18px;">
+                <li>Indústrias transformadoras</li>
+                <li>Empresas de manufatura</li>
+                <li>Setor alimentício e bebidas</li>
+              </ul>
+              <div style="color:#FF6732;font-weight:700;margin-bottom:2px;">Construção Civil</div>
+              <ul style="color:#333;font-size:0.97rem;margin:0 0 12px 0;padding-left:18px;">
+                <li>Construtoras e incorporadoras</li>
+                <li>Empresas de engenharia</li>
+                <li>Setor imobiliário</li>
+              </ul>
+              <div style="color:#FF6732;font-weight:700;margin-bottom:2px;">Turismo e Hotelaria</div>
+              <ul style="color:#333;font-size:0.97rem;margin:0 0 12px 0;padding-left:18px;">
+                <li>Hotéis e pousadas</li>
+                <li>Empresas de turismo</li>
+                <li>Setor de entretenimento</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Card Tipos de Empresas -->
+        <div class="card" style="flex:1 1 420px;max-width:520px;padding:32px 32px 32px 32px;box-shadow:0 4px 24px rgba(27,76,121,0.07);">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:18px;">
+            <span class="icone-fundo" style="background:#0E89D3;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 8h14v-2H7v2zm0-4h14v-2H7v2zm0-6v2h14V7H7z"/></svg></span>
+            <span style="color:#0E89D3;font-weight:700;font-size:1.2rem;">Tipos de Empresas</span>
+          </div>
+          <div style="margin-bottom:18px;">
+            <div style="color:#FF6732;font-weight:700;margin-bottom:2px;">Por Porte</div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px 18px;">
+              <div style="background:#F3F7FA;border-radius:8px;padding:10px 14px;">
+                <span style="color:#1B4C79;font-weight:700;">Microempresas</span><br>
+                <span style="color:#333;font-size:0.97rem;">Soluções simplificadas e acessíveis</span>
+              </div>
+              <div style="background:#F3F7FA;border-radius:8px;padding:10px 14px;">
+                <span style="color:#1B4C79;font-weight:700;">Pequenas Empresas</span><br>
+                <span style="color:#333;font-size:0.97rem;">Serviços personalizados para crescimento</span>
+              </div>
+              <div style="background:#F3F7FA;border-radius:8px;padding:10px 14px;">
+                <span style="color:#1B4C79;font-weight:700;">Médias Empresas</span><br>
+                <span style="color:#333;font-size:0.97rem;">Consultoria estratégica e gestão completa</span>
+              </div>
+              <div style="background:#F3F7FA;border-radius:8px;padding:10px 14px;">
+                <span style="color:#1B4C79;font-weight:700;">Grandes Corporações</span><br>
+                <span style="color:#333;font-size:0.97rem;">Soluções complexas e especializadas</span>
+              </div>
+            </div>
+          </div>
+          <div style="color:#FF6732;font-weight:700;margin-bottom:2px;">Por Natureza Jurídica</div>
+          <ul style="color:#333;font-size:0.97rem;margin:0 0 0 0;padding-left:18px;">
+            <li>Sociedades por Quotas</li>
+            <li>Sociedades Anônimas</li>
+            <li>Empresas Individuais</li>
+            <li>Associações e ONGs</li>
+            <li>Cooperativas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nossos Clientes -->
+  <section id="clientes" style="background:#F8F7FB;">
+    <div class="container" style="text-align:center;">
+      <h2 class="titulo-fundo-claro" style="color:#1B4C79;">Nossos Clientes</h2>
+      <p class="subtitulo" style="margin-bottom:18px;">Empresas que confiam na Maguijor em Luanda e em todo Angola</p>
+      <div style="display:flex;gap:32px;justify-content:center;align-items:center;flex-wrap:wrap;">
+        <img src="cliente1.png" alt="Cliente 1" style="max-height:54px;max-width:160px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+        <img src="cliente2.png" alt="Cliente 2" style="max-height:54px;max-width:160px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+        <img src="cliente3.png" alt="Cliente 3" style="max-height:54px;max-width:160px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+        <img src="cliente4.png" alt="Cliente 4" style="max-height:54px;max-width:160px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+      </div>
+    </div>
+  </section>
+
+  <!-- Entre em Contato -->
+  <section id="contato" style="background:linear-gradient(90deg,#1B4C79 0%,#0E89D3 100%);padding:0;">
+    <div class="container" style="display:flex;gap:32px;justify-content:center;align-items:flex-start;flex-wrap:wrap;padding:48px 0;">
+      <!-- Coluna Esquerda: Info -->
+      <div style="flex:1 1 320px;max-width:400px;color:#fff;">
+        <div style="font-size:2rem;font-weight:700;margin-bottom:8px;">Entre em Contacto</div>
+        <div style="font-size:1.05rem;margin-bottom:24px;">Estamos prontos para ajudar sua empresa a crescer</div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M12 2C6.48 2 2 6.48 2 12c0 5.52 4.48 10 10 10s10-4.48 10-10C22 6.48 17.52 2 12 2zm0 15c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z"/></svg></span>
+          <div>
+            <b style="color:#fff;">Localização</b><br>
+            Luanda, Angola<br>
+            <span style="font-size:0.97rem;">Área central da cidade</span>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1C7.61 21 2 15.39 2 8.5a1 1 0 011-1H6.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/></svg></span>
+          <div>
+            <b style="color:#fff;">Telefone</b><br>
+            +244 923 954 828<br>
+            <span style="font-size:0.97rem;">Segunda a Sexta: 8h às 17h</span>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10z"/></svg></span>
+          <div>
+            <b style="color:#fff;">Email</b><br>
+            geral@maguijor.co.ao<br>
+            <span style="font-size:0.97rem;">Resposta em até 24h</span>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-7-3h2v2h-2v-2zm0-8h2v6h-2V8z"/></svg></span>
+          <div>
+            <b style="color:#fff;">Horário de Funcionamento</b><br>
+            Segunda a Sexta: 8h às 17h<br>
+            <span style="font-size:0.97rem;">Sábado: 8h às 12h (por agendamento)</span>
+          </div>
+        </div>
+        <div style="margin-top:24px;">
+          <div style="font-weight:600;margin-bottom:8px;">Nossa Localização</div>
+          <div style="background:#fff;border-radius:12px;padding:12px;text-align:center;color:#1B4C79;min-height:100px;">Mapa aqui</div>
+        </div>
+      </div>
+      <!-- Coluna Direita: Formulário -->
+      <div style="flex:1 1 420px;max-width:520px;background:rgba(255,255,255,0.13);border-radius:16px;padding:32px 32px 32px 32px;box-shadow:0 4px 24px rgba(27,76,121,0.07);color:#fff;">
+        <div style="font-size:1.2rem;font-weight:700;margin-bottom:18px;">Solicite uma Consultoria Gratuita</div>
+        <form id="form-contato" style="display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;">
+          <div style="grid-column:1/2;">
+            <label for="nome" style="color:#fff;font-weight:500;">Nome Completo *</label>
+            <input type="text" id="nome" name="nome" required style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;">
+          </div>
+          <div style="grid-column:2/3;">
+            <label for="email" style="color:#fff;font-weight:500;">Email *</label>
+            <input type="email" id="email" name="email" required style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;">
+          </div>
+          <div style="grid-column:1/2;">
+            <label for="telefone" style="color:#fff;font-weight:500;">Telefone *</label>
+            <input type="text" id="telefone" name="telefone" required style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;">
+          </div>
+          <div style="grid-column:2/3;">
+            <label for="empresa" style="color:#fff;font-weight:500;">Empresa</label>
+            <input type="text" id="empresa" name="empresa" style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;">
+          </div>
+          <div style="grid-column:1/3;">
+            <label for="servico" style="color:#fff;font-weight:500;">Serviço de Interesse *</label>
+            <select id="servico" name="servico" required style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;">
+              <option value="">Selecione um serviço</option>
+              <option value="contabilidade">Contabilidade Estratégica</option>
+              <option value="auditoria">Auditoria Profunda</option>
+              <option value="fiscalidade">Fiscalidade Inteligente</option>
+              <option value="rh">Gestão de Recursos Humanos</option>
+              <option value="outro">Outro</option>
+            </select>
+          </div>
+          <div style="grid-column:1/3;">
+            <label for="mensagem" style="color:#fff;font-weight:500;">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="3" style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;resize:none;"></textarea>
+          </div>
+          <div style="grid-column:1/3;text-align:right;">
+            <button type="submit" class="btn laranja" style="width:200px;max-width:100%;margin-top:8px;">Enviar Mensagem</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" style="background:#1B4C79;">
+    <div class="container" style="display:flex;gap:32px;flex-wrap:wrap;justify-content:space-between;padding:32px 0 0 0;">
+      <div style="flex:1 1 180px;min-width:180px;max-width:260px;margin-bottom:18px;">
+        <b style="color:#FF6732;">Maguijor Lda.</b>
+        <p style="color:#fff;">"Cuidamos da sua contabilidade como ninguém é melhor". Mais de 10 anos de experiência no mercado angolano, oferecendo serviços de excelência em contabilidade, auditoria, fiscalidade e consultoria empresarial.</p>
+      </div>
+      <div style="flex:1 1 180px;min-width:180px;max-width:260px;margin-bottom:18px;">
+        <b style="color:#FF6732;">Serviços</b>
+        <ul style="list-style:none;padding:0;margin:0;color:#fff;">
+          <li>Contabilidade Estratégica</li>
+          <li>Auditoria Profunda</li>
+          <li>Fiscalidade Inteligente</li>
+          <li>Gestão de Recursos Humanos</li>
+          <li>Formação & Consultoria</li>
+        </ul>
+      </div>
+      <div style="flex:1 1 180px;min-width:180px;max-width:260px;margin-bottom:18px;">
+        <b style="color:#FF6732;">Contacto</b>
+        <ul style="list-style:none;padding:0;margin:0;color:#fff;">
+          <li><span style="margin-right:6px;">📞</span>+244 923 954 828</li>
+          <li><span style="margin-right:6px;">✉️</span>geral@maguijor.co.ao</li>
+          <li><span style="margin-right:6px;">📍</span>Luanda, Angola</li>
+          <li><span style="margin-right:6px;">⏰</span>Segunda a Sexta: 8h às 17h</li>
+        </ul>
+      </div>
+      <div style="flex:1 1 180px;min-width:180px;max-width:260px;margin-bottom:18px;">
+        <b style="color:#FF6732;">Siga-nos</b>
+        <ul style="list-style:none;padding:0;margin:0;color:#fff;display:flex;gap:16px;margin-top:8px;">
+          <li><a href="#" style="color:#fff;text-decoration:none;font-size:1.2rem;">Facebook</a></li>
+          <li><a href="#" style="color:#fff;text-decoration:none;font-size:1.2rem;">LinkedIn</a></li>
+          <li><a href="#" style="color:#fff;text-decoration:none;font-size:1.2rem;">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div style="text-align:center;font-size:0.95rem;color:#e0e6ef;margin:18px 0 0 0;padding-bottom:18px;">© 2025 Maguijor Lda. Todos os direitos reservados | Cumprimento das normas contábeis angolanas | Conformidade com a legislação fiscal</div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

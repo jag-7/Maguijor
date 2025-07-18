@@ -4,40 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maguijor Lda.</title>
+  <meta name="description" content="Mais de 10 anos de experiência em contabilidade, auditoria, fiscalidade e consultoria empresarial em Angola. Gestão eficiente para sua empresa.">
+  <meta name="keywords" content="contabilidade, auditoria, fiscalidade, consultoria, Angola, Maguijor">
+  <meta name="author" content="Maguijor Lda.">
+  <link rel="icon" href="logo.png" type="image/png">
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome via jsDelivr -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <!-- Header/Menu principal -->
   <header id="header">
     <div class="container-header">
       <div class="logo">
-        <img src="logo.png" alt="logo" class="img-logo">
+        <img src="logo.png" alt="Logotipo da Maguijor Lda." class="img-logo">
       </div>
-      <nav class="menu">
-        <a href="#" class="menu-link">Início</a>
-        <a href="#" class="menu-link">Quem Somos</a>
-        <a href="#" class="menu-link">Missão e Visão</a>
-        <a href="#" class="menu-link">Soluções</a>
-        <a href="#" class="menu-link">Fale Conosco</a>
+      <nav class="menu" aria-label="Menu principal">
+        <a href="#hero" class="menu-link">Início</a>
+        <a href="#historia" class="menu-link">Quem Somos</a>
+        <a href="#processo" class="menu-link">Missão e Visão</a>
+        <a href="#solucoes" class="menu-link">Soluções</a>
+        <a href="#contato" class="menu-link">Fale Conosco</a>
       </nav>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section id="hero" class="container-gradiente" style="padding-top:32px;padding-bottom:56px;">
+  <section id="hero" class="container-gradiente hero-section fade-in">
     <div class="hero-content">
       <h1 class="titulo-fundo-gradiente">Transforme a Gestão da Sua Empresa com a Maguijor</h1>
       <hr class="linha-titulo-fundo-gradiente">
-      <p style="max-width:500px;font-size:1.2rem;">Mais de 10 anos de experiência em contabilidade, auditoria, fiscalidade e consultoria empresarial em Angola. Foque total no seu crescimento e tranquilidade!</p>
-      <div class="hero-buttons">
-        <a href="#contato" class="btn laranja">Solicite uma Consultoria Gratuita</a>
-        <a href="#solucoes" class="btn branco">Descubra Nossas Soluções</a>
+      <p class="hero-subtitle">Mais de 10 anos de experiência em contabilidade, auditoria, fiscalidade e consultoria empresarial em Angola. Foque total no seu crescimento e tranquilidade!</p>
+      <div class="hero-buttons" style="display:flex;justify-content:center;align-items:center;gap:0;margin-top:18px;">
+        <a href="#contato" class="btn laranja" style="white-space:nowrap;padding-left:32px;padding-right:32px;border-top-right-radius:0;border-bottom-right-radius:0;">Quero minha consultoria!</a>
+        <a href="#solucoes" class="btn branco" style="margin-left:0;border-top-left-radius:0;border-bottom-left-radius:0;">Ver soluções</a>
       </div>
     </div>
   </section>
 
   <!-- História de Excelência e Confiança -->
-  <section id="historia" style="background:#fff;">
+  <section id="historia" class="fade-in" style="background:#fff;">
     <div class="container">
       <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;">
         <h2 class="titulo-fundo-claro" style="color:#0E89D3;padding:8px 24px 8px 12px;border-radius:6px 0 0 6px;margin:0;">História de Excelência e Confiança</h2>
@@ -50,7 +56,7 @@
             <div style="background:linear-gradient(135deg,#1B4C79 80%,#0E89D3 100%);color:#fff;border-radius:12px;padding:18px 24px;min-width:120px;text-align:center;font-weight:700;font-size:1.2rem;box-shadow:0 2px 8px rgba(27,76,121,0.10);">
               10+<br><span style="font-size:0.9rem;font-weight:400;">Anos de Experiência</span>
             </div>
-            <div style="background:linear-gradient(135deg,#1B4C79 80%,#0E89D3 100%);color:#fff;border-radius:12px;padding:18px 24px;min-width:120px;text-align:center;font-weight:700;font-size:1.2rem;box-shadow:0 2px 8px rgba(27,76,121,0.10);">
+            <div style="background:linear-gradient(10deg,#1B4C79 80%,#0E89D3 100%);color:#fff;border-radius:12px;padding:18px 24px;min-width:120px;text-align:center;font-weight:700;font-size:1.2rem;box-shadow:0 2px 8px rgba(27,76,121,0.10);">
               500+<br><span style="font-size:0.9rem;font-weight:400;">Clientes Satisfeitos</span>
             </div>
             <div style="background:linear-gradient(135deg,#1B4C79 80%,#0E89D3 100%);color:#fff;border-radius:12px;padding:18px 24px;min-width:120px;text-align:center;font-weight:700;font-size:1.2rem;box-shadow:0 2px 8px rgba(27,76,121,0.10);">
@@ -73,41 +79,66 @@
           </div>
         </div>
       </div>
+
+            <!-- Bloco Missão, Visão e Objetivo (novo visual com Font Awesome) -->
+            <div class="vmo-horizontal">
+              <div class="vmo-item">
+                <i class="fa-solid fa-eye vmo-fa-icon" aria-hidden="true"></i>
+                <h3>Visão</h3>
+                <p>Ser reconhecida como referência nacional em soluções de contabilidade, auditoria e consultoria empresarial, promovendo o crescimento sustentável dos nossos clientes.</p>
+              </div>
+              <div class="vmo-divider" aria-hidden="true"></div>
+              <div class="vmo-item">
+                <i class="fa-solid fa-bullseye vmo-fa-icon" aria-hidden="true"></i>
+                <h3>Missão</h3>
+                <p>Oferecer serviços de excelência, com ética, inovação e compromisso, contribuindo para a gestão eficiente e segura das empresas angolanas.</p>
+              </div>
+              <div class="vmo-divider" aria-hidden="true"></div>
+              <div class="vmo-item">
+                <i class="fa-solid fa-flag-checkered vmo-fa-icon" aria-hidden="true"></i>
+                <h3>Objetivo</h3>
+                <p>Garantir a tranquilidade financeira dos nossos clientes, agregando valor e confiança em cada etapa do seu desenvolvimento empresarial.</p>
+              </div>
+            </div>
+            <!-- Fim do bloco Missão, Visão e Objetivo -->
+         
+        
       <div style="display:flex;gap:18px;margin:40px 0 0 0;">
         <div class="card" style="flex:1;display:flex;align-items:center;gap:12px;min-width:180px;">
-          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg></span>
+          <span class="icone-fundo"><i class="fa-solid fa-award"></i></span>
           <div>
             <b>Experiência Consolidada</b>
             <div style="font-size:0.97rem;font-weight:400;">Mais de 10 anos de conhecimento profundo da legislação angolana.</div>
           </div>
         </div>
         <div class="card" style="flex:1;display:flex;align-items:center;gap:12px;min-width:180px;">
-          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></span>
+          <span class="icone-fundo"><i class="fa-solid fa-users"></i></span>
           <div>
             <b>Equipe Especializada</b>
             <div style="font-size:0.97rem;font-weight:400;">Profissionais qualificados e em constante atualização.</div>
           </div>
         </div>
         <div class="card" style="flex:1;display:flex;align-items:center;gap:12px;min-width:180px;">
-          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-7-3h2v2h-2v-2zm0-8h2v6h-2V8z"/></svg></span>
+          <span class="icone-fundo"><i class="fa-solid fa-handshake-angle"></i></span>
           <div>
             <b>Atendimento Personalizado</b>
             <div style="font-size:0.97rem;font-weight:400;">Soluções adaptadas às necessidades de cada cliente.</div>
           </div>
         </div>
         <div class="card" style="flex:1;display:flex;align-items:center;gap:12px;min-width:180px;">
-          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M12 7V3L1 9l11 6 9-4.91V17h2V9L12 3v4z"/></svg></span>
+          <span class="icone-fundo"><i class="fa-solid fa-microchip"></i></span>
           <div>
             <b>Tecnologia Avançada</b>
             <div style="font-size:0.97rem;font-weight:400;">Sistemas modernos para maior eficiência e precisão.</div>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
   <!-- Soluções Completas para Sua Empresa -->
-  <section id="solucoes" style="background:#F8F7FB;">
+  <section id="solucoes" class="fade-in" style="background:#F8F7FB;">
     <div class="container">
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
         <h2 class="titulo-fundo-claro" style="color:#0E89D3;">Soluções <span style="color:#0E89D3;">Completas</span> para <span style="color:#0E89D3;">Sua Empresa</span></h2>
@@ -116,7 +147,7 @@
       <p class="subtitulo" style="margin-bottom:24px;">Conheça nossos serviços especializados para impulsionar o crescimento e a segurança do seu negócio</p>
       <div style="display:flex;gap:24px;justify-content:center;flex-wrap:wrap;">
         <div class="card" style="flex:1 1 220px;max-width:270px;border:2px solid #0E89D3;">
-          <div class="icone-fundo" style="margin-bottom:8px;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><rect width="24" height="24" rx="8" fill="#FF6732"/><path fill="#fff" d="M7 17h10v-2H7v2zm0-4h10v-2H7v2zm0-6v2h10V7H7z"/></svg></div>
+          <div class="icone-fundo" style="margin-bottom:8px;"><i class="fa-solid fa-calculator"></i></div>
           <h3 style="color:#1B4C79;">Contabilidade Estratégica</h3>
           <div style="color:#333;font-size:0.97rem;font-size:0.97rem;margin-bottom:8px;">Gestão contábil completa para garantir conformidade e crescimento sustentável.</div>
           <ul style="color:#333;font-size:0.97rem;">
@@ -129,7 +160,7 @@
           <a href="#contato" class="solicite-link">Solicite Orçamento</a>
         </div>
         <div class="card" style="flex:1 1 220px;max-width:270px;border:2px solid #0E89D3;">
-          <div class="icone-fundo" style="margin-bottom:8px;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6z"/></svg></div>
+          <div class="icone-fundo" style="margin-bottom:8px;"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
           <h3 style="color:#1B4C79;">Auditoria Profunda</h3>
           <div style="color:#333;font-size:0.97rem; font-size:0.97rem;margin-bottom:8px;">Transparência e segurança para sua empresa com auditorias especializadas.</div>
           <ul style="color:#333;font-size:0.97rem;">
@@ -141,7 +172,7 @@
           <a href="#contato" class="solicite-link">Solicite Orçamento</a>
         </div>
         <div class="card" style="flex:1 1 220px;max-width:270px;border:2px solid #0E89D3;">
-          <div class="icone-fundo" style="margin-bottom:8px;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><rect width="24" height="24" rx="8" fill="#FF6732"/><path fill="#fff" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-7-3h2v2h-2v-2zm0-8h2v6h-2V8z"/></svg></div>
+          <div class="icone-fundo" style="margin-bottom:8px;"><i class="fa-solid fa-scale-balanced"></i></div>
           <h3 style="color:#1B4C79;">Fiscalidade Inteligente</h3>
           <div style="color:#333;font-size:0.97rem; font-size:0.97rem;margin-bottom:8px;">Consultoria fiscal para otimizar sua carga tributária e garantir compliance.</div>
           <ul style="color:#333;font-size:0.97rem;">
@@ -154,7 +185,7 @@
           <a href="#contato" class="solicite-link">Solicite Orçamento</a>
         </div>
         <div class="card" style="flex:1 1 220px;max-width:270px;border:2px solid #0E89D3;">
-          <div class="icone-fundo" style="margin-bottom:8px;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></div>
+          <div class="icone-fundo" style="margin-bottom:8px;"><i class="fa-solid fa-people-group"></i></div>
           <h3 style="color:#1B4C79;">Gestão de Recursos Humanos</h3>
           <div style="color:#333;font-size:0.97rem; font-size:0.97rem;margin-bottom:8px;">RH estratégico para sua empresa focar no que realmente importa.</div>
           <ul style="color:#333;font-size:0.97rem;">
@@ -171,7 +202,7 @@
   </section>
 
   <!-- Como Funciona Nosso Processo -->
-  <section id="processo" class="container-gradiente" style="margin-top:0;">
+  <section id="processo" class="container-gradiente fade-in" style="margin-top:0;">
     <div class="container">
       <h2 class="titulo-fundo-gradiente" style="color:#fff;">Como Funciona Nosso Processo</h2>
       <hr class="linha-titulo-fundo-gradiente">
@@ -218,7 +249,7 @@
   </section>
 
   <!-- Setores e Tipos de Empresas Atendidas -->
-  <section id="setores" style="background:#F8F7FB;">
+  <section id="setores" class="fade-in" style="background:#F8F7FB;">
     <div class="container">
       <h2 class="titulo-fundo-claro" style="color:#0E89D3;text-align:center;margin-bottom:0;">Setores e Tipos de <span style="color:#0E89D3;">Empresas Atendidas</span></h2>
       <hr class="linha-titulo-fundo-claro" style="margin:8px auto 18px auto;">
@@ -227,7 +258,7 @@
         <!-- Card Setores Atendidos -->
         <div class="card" style="flex:1 1 420px;max-width:520px;padding:32px 32px 32px 32px;box-shadow:0 4px 24px rgba(27,76,121,0.07);">
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:18px;">
-            <span class="icone-fundo" style="background:#0E89D3;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 8h14v-2H7v2zm0-4h14v-2H7v2zm0-6v2h14V7H7z"/></svg></span>
+            <span class="icone-fundo" style="background:#0E89D3;"><i class="fa-solid fa-industry"></i></span>
             <span style="color:#0E89D3;font-weight:700;font-size:1.2rem;">Setores Atendidos</span>
           </div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 32px;">
@@ -276,7 +307,7 @@
         <!-- Card Tipos de Empresas -->
         <div class="card" style="flex:1 1 420px;max-width:520px;padding:32px 32px 32px 32px;box-shadow:0 4px 24px rgba(27,76,121,0.07);">
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:18px;">
-            <span class="icone-fundo" style="background:#0E89D3;"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 8h14v-2H7v2zm0-4h14v-2H7v2zm0-6v2h14V7H7z"/></svg></span>
+            <span class="icone-fundo" style="background:#0E89D3;"><i class="fa-solid fa-building"></i></span>
             <span style="color:#0E89D3;font-weight:700;font-size:1.2rem;">Tipos de Empresas</span>
           </div>
           <div style="margin-bottom:18px;">
@@ -314,86 +345,99 @@
   </section>
 
   <!-- Nossos Clientes -->
-  <section id="clientes" style="background:#F8F7FB;">
+  <section id="clientes" class="fade-in" style="background:#F8F7FB;">
     <div class="container" style="text-align:center;">
       <h2 class="titulo-fundo-claro" style="color:#1B4C79;">Nossos Clientes</h2>
       <p class="subtitulo" style="margin-bottom:18px;">Empresas que confiam na Maguijor em Luanda e em todo Angola</p>
       <div style="display:flex;gap:32px;justify-content:center;align-items:center;flex-wrap:wrap;">
-        <img src="cliente1.png" alt="Cliente 1" style="max-height:54px;max-width:160px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
-        <img src="cliente2.png" alt="Cliente 2" style="max-height:54px;max-width:160px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
-        <img src="cliente3.png" alt="Cliente 3" style="max-height:54px;max-width:160px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
-        <img src="cliente4.png" alt="Cliente 4" style="max-height:54px;max-width:160px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+        <img src="2338.png" alt="Cliente 1" style="max-height:200x;max-width:250px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+        <img src="images (1).png" alt="Cliente 2" style="max-height:200px;max-width:250px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+        <img src="3133.png" alt="Cliente 3" style="max-height:200px;max-width:250px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
+        <img src="images.png" alt="Cliente 4" style="max-height:200px;max-width:250px;background:#fff;border-radius:8px;padding:8px 12px;box-shadow:0 2px 8px rgba(27,76,121,0.07);">
       </div>
     </div>
   </section>
 
+  <!-- Card CTA: Pronto para começar seu projeto? -->
+  <div class="cta-card-destaque fade-in">
+    <div class="cta-card-conteudo">
+      <h2>Pronto para começar seu projeto?</h2>
+      <p>Entre em contato conosco e peça uma consultoria.</p>
+      <a href="#contato" class="btn laranja">Solicitar orçamento</a>
+    </div>
+  </div>
+  <!-- Fim do Card CTA -->
+
   <!-- Entre em Contato -->
-  <section id="contato" style="background:linear-gradient(90deg,#1B4C79 0%,#0E89D3 100%);padding:0;">
-    <div class="container" style="display:flex;gap:32px;justify-content:center;align-items:flex-start;flex-wrap:wrap;padding:48px 0;">
+  <section id="contato" class="contato-section fade-in">
+    <div class="container contato-container">
       <!-- Coluna Esquerda: Info -->
-      <div style="flex:1 1 320px;max-width:400px;color:#fff;">
-        <div style="font-size:2rem;font-weight:700;margin-bottom:8px;">Entre em Contacto</div>
-        <div style="font-size:1.05rem;margin-bottom:24px;">Estamos prontos para ajudar sua empresa a crescer</div>
-        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
-          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M12 2C6.48 2 2 6.48 2 12c0 5.52 4.48 10 10 10s10-4.48 10-10C22 6.48 17.52 2 12 2zm0 15c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z"/></svg></span>
+      <div class="contato-info">
+        <div class="contato-titulo">Entre em Contacto</div>
+        <div class="contato-subtitulo">Estamos prontos para ajudar sua empresa a crescer</div>
+        <div class="contato-item">
+          <span class="icone-fundo" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></span>
           <div>
-            <b style="color:#fff;">Localização</b><br>
+            <b>Localização</b><br>
             Luanda, Angola<br>
-            <span style="font-size:0.97rem;">Área central da cidade</span>
+            <span class="contato-item-desc">Área central da cidade</span>
           </div>
         </div>
-        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
-          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1C7.61 21 2 15.39 2 8.5a1 1 0 011-1H6.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/></svg></span>
+        <div class="contato-item">
+          <span class="icone-fundo" aria-hidden="true"><i class="fa-solid fa-phone"></i></span>
           <div>
-            <b style="color:#fff;">Telefone</b><br>
+            <b>Telefone</b><br>
             +244 923 954 828<br>
-            <span style="font-size:0.97rem;">Segunda a Sexta: 8h às 17h</span>
+            <span class="contato-item-desc">Segunda a Sexta: 8h às 17h</span>
           </div>
         </div>
-        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
-          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10z"/></svg></span>
+        <div class="contato-item">
+          <span class="icone-fundo" aria-hidden="true"><i class="fa-solid fa-envelope"></i></span>
           <div>
-            <b style="color:#fff;">Email</b><br>
+            <b>Email</b><br>
             geral@maguijor.co.ao<br>
-            <span style="font-size:0.97rem;">Resposta em até 24h</span>
+            <span class="contato-item-desc">Resposta em até 24h</span>
           </div>
         </div>
-        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
-          <span class="icone-fundo"><svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FF6732"/><path fill="#fff" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-7-3h2v2h-2v-2zm0-8h2v6h-2V8z"/></svg></span>
+        <div class="contato-item">
+          <span class="icone-fundo" aria-hidden="true"><i class="fa-solid fa-clock"></i></span>
           <div>
-            <b style="color:#fff;">Horário de Funcionamento</b><br>
+            <b>Horário de Funcionamento</b><br>
             Segunda a Sexta: 8h às 17h<br>
-            <span style="font-size:0.97rem;">Sábado: 8h às 12h (por agendamento)</span>
+            <span class="contato-item-desc">Sábado: 8h às 12h (por agendamento)</span>
           </div>
         </div>
-        <div style="margin-top:24px;">
-          <div style="font-weight:600;margin-bottom:8px;">Nossa Localização</div>
-          <div style="background:#fff;border-radius:12px;padding:12px;text-align:center;color:#1B4C79;min-height:100px;">Mapa aqui</div>
+        <div class="contato-mapa">
+          <div class="contato-mapa-titulo">Nossa Localização</div>
+          <div class="contato-mapa-area">
+            <!-- Exemplo de mapa real -->
+            <iframe title="Mapa Maguijor" src="https://www.google.com/maps?q=Luanda,Angola&output=embed" width="100%" height="120" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
       </div>
       <!-- Coluna Direita: Formulário -->
-      <div style="flex:1 1 420px;max-width:520px;background:rgba(255,255,255,0.13);border-radius:16px;padding:32px 32px 32px 32px;box-shadow:0 4px 24px rgba(27,76,121,0.07);color:#fff;">
-        <div style="font-size:1.2rem;font-weight:700;margin-bottom:18px;">Solicite uma Consultoria Gratuita</div>
-        <form id="form-contato" style="display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;">
-          <div style="grid-column:1/2;">
+      <div class="contato-form-area">
+        <div class="contato-form-titulo">Solicite uma Consultoria Gratuita</div>
+        <form id="form-contato" class="contato-form" aria-label="Formulário de contato">
+          <div class="form-group">
             <label for="nome" style="color:#fff;font-weight:500;">Nome Completo *</label>
-            <input type="text" id="nome" name="nome" required style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;">
+            <input type="text" id="nome" name="nome" required aria-required="true" aria-label="Nome Completo">
           </div>
-          <div style="grid-column:2/3;">
+          <div class="form-group">
             <label for="email" style="color:#fff;font-weight:500;">Email *</label>
-            <input type="email" id="email" name="email" required style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;">
+            <input type="email" id="email" name="email" required aria-required="true" aria-label="Email">
           </div>
-          <div style="grid-column:1/2;">
+          <div class="form-group">
             <label for="telefone" style="color:#fff;font-weight:500;">Telefone *</label>
-            <input type="text" id="telefone" name="telefone" required style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;">
+            <input type="text" id="telefone" name="telefone" required aria-required="true" aria-label="Telefone">
           </div>
-          <div style="grid-column:2/3;">
+          <div class="form-group">
             <label for="empresa" style="color:#fff;font-weight:500;">Empresa</label>
-            <input type="text" id="empresa" name="empresa" style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;">
+            <input type="text" id="empresa" name="empresa" aria-label="Empresa">
           </div>
-          <div style="grid-column:1/3;">
+          <div class="form-group">
             <label for="servico" style="color:#fff;font-weight:500;">Serviço de Interesse *</label>
-            <select id="servico" name="servico" required style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;">
+            <select id="servico" name="servico" required aria-required="true" aria-label="Serviço de Interesse">
               <option value="">Selecione um serviço</option>
               <option value="contabilidade">Contabilidade Estratégica</option>
               <option value="auditoria">Auditoria Profunda</option>
@@ -402,14 +446,15 @@
               <option value="outro">Outro</option>
             </select>
           </div>
-          <div style="grid-column:1/3;">
+          <div class="form-group">
             <label for="mensagem" style="color:#fff;font-weight:500;">Mensagem</label>
-            <textarea id="mensagem" name="mensagem" rows="3" style="width:100%;padding:8px 10px;border-radius:6px;border:1.5px solid #dbe6f3;font-size:1rem;font-family:inherit;background:#f8f7fb;color:#1B4C79;resize:none;"></textarea>
+            <textarea id="mensagem" name="mensagem" rows="3" aria-label="Mensagem"></textarea>
           </div>
-          <div style="grid-column:1/3;text-align:right;">
-            <button type="submit" class="btn laranja" style="width:200px;max-width:100%;margin-top:8px;">Enviar Mensagem</button>
+          <div class="form-group">
+            <button type="submit" class="btn laranja" aria-label="Enviar Mensagem">Enviar Mensagem</button>
           </div>
         </form>
+        <div id="form-feedback" class="form-feedback" aria-live="polite" style="display:none;"></div>
       </div>
     </div>
   </section>
@@ -419,8 +464,9 @@
     <div class="container" style="display:flex;gap:32px;flex-wrap:wrap;justify-content:space-between;padding:32px 0 0 0;">
       <div style="flex:1 1 180px;min-width:180px;max-width:260px;margin-bottom:18px;">
         <b style="color:#FF6732;">Maguijor Lda.</b>
-        <p style="color:#fff;">"Cuidamos da sua contabilidade como ninguém é melhor". Mais de 10 anos de experiência no mercado angolano, oferecendo serviços de excelência em contabilidade, auditoria, fiscalidade e consultoria empresarial.</p>
+        <p style="color:#fff;"> Sua tranquilidade financeira começa aqui, nós Cuidamos da sua contabilidade como ninguém é melhor.</p>
       </div>
+      <div class="footer-divider"></div>
       <div style="flex:1 1 180px;min-width:180px;max-width:260px;margin-bottom:18px;">
         <b style="color:#FF6732;">Serviços</b>
         <ul style="list-style:none;padding:0;margin:0;color:#fff;">
@@ -431,6 +477,7 @@
           <li>Formação & Consultoria</li>
         </ul>
       </div>
+      <div class="footer-divider"></div>
       <div style="flex:1 1 180px;min-width:180px;max-width:260px;margin-bottom:18px;">
         <b style="color:#FF6732;">Contacto</b>
         <ul style="list-style:none;padding:0;margin:0;color:#fff;">
@@ -440,16 +487,18 @@
           <li><span style="margin-right:6px;">⏰</span>Segunda a Sexta: 8h às 17h</li>
         </ul>
       </div>
+      <div class="footer-divider"></div>
       <div style="flex:1 1 180px;min-width:180px;max-width:260px;margin-bottom:18px;">
         <b style="color:#FF6732;">Siga-nos</b>
-        <ul style="list-style:none;padding:0;margin:0;color:#fff;display:flex;gap:16px;margin-top:8px;">
-          <li><a href="#" style="color:#fff;text-decoration:none;font-size:1.2rem;">Facebook</a></li>
-          <li><a href="#" style="color:#fff;text-decoration:none;font-size:1.2rem;">LinkedIn</a></li>
-          <li><a href="#" style="color:#fff;text-decoration:none;font-size:1.2rem;">Instagram</a></li>
+        <ul style="list-style:none;padding:0;margin:0;color:#fff;display:flex;gap:16px;margin-top:8px;justify-content:left;">
+          <li><a href="#" style="color:#fff;text-decoration:none;font-size:1.7rem;" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#" style="color:#fff;text-decoration:none;font-size:1.7rem;" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="#" style="color:#fff;text-decoration:none;font-size:1.7rem;" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
         </ul>
       </div>
     </div>
-    <div style="text-align:center;font-size:0.95rem;color:#e0e6ef;margin:18px 0 0 0;padding-bottom:18px;">© 2025 Maguijor Lda. Todos os direitos reservados | Cumprimento das normas contábeis angolanas | Conformidade com a legislação fiscal</div>
+    <hr class="footer-hr">
+    <div style="text-align:center;font-size:0.95rem;color:#e0e6ef;margin:18px 0 0 0;padding: bottom 0px;"> © 2025 Jag Lda. Todos os direitos reservados.</div>
   </footer>
 
   <script src="script.js"></script>

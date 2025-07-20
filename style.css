@@ -3702,3 +3702,26 @@ li {
   }
 }
 
+@media (max-width: 480px) {
+  .logo img, .img-logo {
+    max-width: 90px;
+    height: auto;
+  }
+  .hero-section {
+    min-height: 100vh;
+    height: 100vh;
+    padding: 0;
+  }
+}
+@media (max-width: 320px) {
+  .logo img, .img-logo {
+    max-width: 70px;
+    height: auto;
+  }
+  .hero-section {
+    min-height: 100vh;
+    height: 100vh;
+    padding: 0;
+  }
+}
+

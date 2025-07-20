@@ -73,4 +73,27 @@ document.addEventListener('DOMContentLoaded', function() {
   };
   window.addEventListener('scroll', fadeInOnScroll);
   fadeInOnScroll();
+
+  // MENU RESPONSIVO
+  const menuToggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.menu');
+  const menuClose = document.querySelector('.menu-close');
+  const menuLinks = document.querySelectorAll('.menu-link');
+
+  function openMenu() {
+    menu.classList.add('open');
+  }
+  function closeMenu() {
+    menu.classList.remove('open');
+  }
+
+  if (menuToggle && menu && menuClose) {
+    menuToggle.style.display = 'block';
+    menuToggle.addEventListener('click', openMenu);
+    menuClose.style.display = 'block';
+    menuClose.addEventListener('click', closeMenu);
+    menuLinks.forEach(link => {
+      link.addEventListener('click', closeMenu);
+    });
+  }
 }); 

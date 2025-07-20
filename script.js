@@ -82,15 +82,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function openMenu() {
     menu.classList.add('open');
+    menuToggle.style.display = 'none';
+    menuClose.style.display = 'block';
   }
   function closeMenu() {
     menu.classList.remove('open');
+    menuToggle.style.display = 'block';
+    menuClose.style.display = 'none';
   }
 
   if (menuToggle && menu && menuClose) {
     menuToggle.style.display = 'block';
     menuToggle.addEventListener('click', openMenu);
-    menuClose.style.display = 'block';
+    menuClose.style.display = 'none';
     menuClose.addEventListener('click', closeMenu);
     menuLinks.forEach(link => {
       link.addEventListener('click', closeMenu);

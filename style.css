@@ -3939,20 +3939,32 @@ li {
 }
 @media (max-width: 480px) {
   .process-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
     gap: 0.7rem !important;
     padding: 0.2rem !important;
+    align-items: stretch !important;
+    justify-items: center !important;
   }
-  .process-card {
-    margin-bottom: 0.7rem !important;
+}
+@media (max-width: 420px) {
+  .process-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.5rem !important;
+    padding: 0.1rem !important;
+    align-items: stretch !important;
+    justify-items: center !important;
   }
 }
 @media (max-width: 320px) {
   .process-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
     gap: 0.3rem !important;
-    padding: 0.1rem !important;
-  }
-  .process-card {
-    margin-bottom: 0.3rem !important;
+    padding: 0.05rem !important;
+    align-items: stretch !important;
+    justify-items: center !important;
   }
 }
 

@@ -73,31 +73,4 @@ document.addEventListener('DOMContentLoaded', function() {
   };
   window.addEventListener('scroll', fadeInOnScroll);
   fadeInOnScroll();
-
-  // MENU RESPONSIVO
-  const menuToggle = document.querySelector('.menu-toggle');
-  const menu = document.querySelector('.menu');
-  const menuClose = document.querySelector('.menu-close');
-  const menuLinks = document.querySelectorAll('.menu-link');
-
-  function openMenu() {
-    menu.classList.add('open');
-    menuToggle.style.display = 'none';
-    menuClose.style.display = 'block';
-  }
-  function closeMenu() {
-    menu.classList.remove('open');
-    menuToggle.style.display = 'block';
-    menuClose.style.display = 'none';
-  }
-
-  if (menuToggle && menu && menuClose) {
-    menuToggle.style.display = 'block';
-    menuToggle.addEventListener('click', openMenu);
-    menuClose.style.display = 'none';
-    menuClose.addEventListener('click', closeMenu);
-    menuLinks.forEach(link => {
-      link.addEventListener('click', closeMenu);
-    });
-  }
 }); 
